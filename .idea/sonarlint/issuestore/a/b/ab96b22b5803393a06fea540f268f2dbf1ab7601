@@ -1,4 +1,8 @@
 
 
-java:S1488&"_Immediately return this expression instead of assigning it to the temporary variable "voiture".(È•ê·øÿÿÿÿ8ê¦ë›Ñ1
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(óéÒö8Ñ°Ú–Ñ1
+java:S14884"_Immediately return this expression instead of assigning it to the temporary variable "voiture".(È•ê·øÿÿÿÿ8„úÚûÕ1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(óéÒö8†úÚûÕ1
+H
+java:S2201,"+The return value of "collect" must be used.(ª™¨¹8•úÚûÕ1
+o
+java:S6204,"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8•úÚûÕ1
