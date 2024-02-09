@@ -1,0 +1,20 @@
+spring:
+  cloud:
+    gateway:
+      mvc:
+        routes:
+          - id: p1
+            uri: http://localhost:8081/
+            predicates:
+              - Path=/personnes/**
+          - id: v1
+            uri: http://localhost:8082/
+            predicates:
+              - Path=/voitures/**
+
+
+  application:
+    name: proxy-service
+
+server:
+  port: 8888
